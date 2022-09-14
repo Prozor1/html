@@ -1,0 +1,361 @@
+blockquote {
+	font-size: 20px;
+}
+
+
+
+p {
+	font-size: 25px;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+
+	letter-spacing: 4px;
+	text-decoration: dotted underline #9b1414;
+}
+
+.list {
+	font-size: 25px;
+}
+
+a {
+	font-size: 25px;
+}
+
+body {
+	margin: 10px;
+	font-family: 'Oswald', sans-serif;
+
+	/* background-color: rgb(211, 190, 190);
+	background-image: url(../img/pattern.png);
+	background-size: 100px 1 00px; */
+}
+
+
+
+.table {
+	/* border: 1px solid #000; */
+	font-size: 35px;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 5px;
+	border-radius: 30px;
+	background: rgb(160, 163, 172);
+	border: 16px solid #ece9e0;
+
+}
+
+/* .table tr th {
+	background-color: yellow;
+} */
+
+/* .table th {
+	text-align: left;
+	color: rgb(125, 10, 233);
+	padding: 10px;
+} */
+
+.table td {
+	/* border: 1px solid #000; */
+	padding: 20px;
+	background: rgb(61, 172, 165);
+}
+
+.table tfoot td {
+	text-align: right;
+}
+
+.column {
+	text-align: center;
+}
+
+.td {
+	background: rgb(61, 172, 165);
+	padding: 20px;
+	;
+}
+
+.link {
+	text-align: center;
+}
+
+.th {
+	background-color: rgb(140, 223, 140);
+
+}
+
+.connect {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* .button {
+	padding: 5px 25px;
+	text-align: center;
+	font-size: 50px;
+	border-radius: 23px;
+	font-size: 34px;
+	line-height: 54px;
+
+} */
+
+.button {
+	cursor: pointer;
+	display: block;
+	height: 70px;
+	width: 320px;
+	line-height: 70px;
+	text-align: center;
+
+	background-repeat: no-repeat;
+
+
+}
+
+.biton {
+	background-color: #4CAF50;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 25px 32px;
+	margin: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	transition: all 0.3s linear;
+}
+
+.biton:hover {
+	background-color: rgb(8, 93, 6);
+	/* Green */
+	color: white;
+	cursor: pointer;
+	font-weight: 700;
+	/* outline: 5px solid #9b1414; */
+}
+
+
+
+
+
+.abbr {
+	padding: 30px;
+	font-size: 27px;
+}
+
+meter {
+	font-size: 40px;
+}
+
+.semantik {
+	text-align: left;
+}
+
+
+.hed {
+	background: rgb(227, 75, 75);
+
+}
+
+.meter {
+	font-size: 90px;
+}
+
+
+.form {
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+.form-group {
+	margin-bottom: 15px;
+
+}
+
+.form-input {
+	display: block;
+	padding: 5px;
+	border: 1px solid #000;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+.form-input:focus {
+	background-color: rgb(167, 177, 184);
+	/* border: 5px solid rgb(197, 82, 82); */
+	outline: 5px solid #4CAF50;
+}
+
+.text-area {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+.field {
+	margin-bottom: 10px;
+}
+
+.abbr {
+	padding: 30px;
+	font-size: 27px;
+}
+
+meter {
+	font-size: 40px;
+}
+
+.semantik {
+	text-align: left;
+}
+
+.hed {
+	background: rgb(227, 75, 75);
+
+}
+
+.meter {
+	font-size: 90px;
+}
+
+.form {
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+.form-group {
+	margin-bottom: 15px;
+
+}
+
+.form-input {
+	display: block;
+	padding: 5px;
+	border: 1px solid #000;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+.text-area {
+	width: 200px;
+	min-height: 150px;
+	padding: 10px;
+	/* font-family: Arial, sans-serif;
+	font-size: 15px; */
+	outline: 5px solid #4f0b9e;
+	outline-offset: 2px;
+	outline-style: dotted;
+	font: bold italic 15px Arial;
+	resize: vertical;
+}
+
+.text-area:focus {
+	outline: 0;
+}
+
+.field {
+	margin-bottom: 10px;
+}
+
+.text-red {
+	color: red;
+	font-weight: 700;
+	font-style: italic;
+	margin: 10px;
+	display: inline-block;
+	width: 160px;
+	height: 30px;
+}
+
+
+
+.page {
+	margin: auto;
+	width: 900px;
+}
+
+/* Post */
+.post {
+	width: 900px;
+	height: 400px;
+	margin: auto;
+	border: 1px solid #fff;
+	padding: 15px 25px;
+
+	background: #fff url("../img/bg.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.post-title {
+	margin: 0 0 15px 0;
+}
+
+.post-text p {
+	margin: 0 0 10px 0;
+}
+
+.post-text {
+	color: #fff
+}
+
+/* Gradient */
+
+.gradient {
+	width: 952px;
+	height: 300px;
+	margin: 20px auto;
+	text-align: center;
+	/* background-image: linear-gradient(to right, #fff 20%, #333 20%, #333 40%, #fff 40%, #fff 60%, #333 60%, #333 80%, #fff 80%); */
+
+
+	background-image: radial-gradient(circle, #fff, #333);
+
+}
+
+
+.form-filset {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-top: 0ch;
+	margin-bottom: 20px;
+}
+
+.form-title {
+	margin: 0 0 15px;
+}
+
+/* Square */
+
+.modal {
+	width: 500px;
+	height: 300px;
+	margin: 20px auto;
+	padding: 15px;
+	position: relative;
+	background-color: #eee;
+}
+
+.mod-title {
+	margin: 0;
+}
+
+.square {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(17, 17, 17);
+	margin: 0;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}

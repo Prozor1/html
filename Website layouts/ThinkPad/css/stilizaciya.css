@@ -1,0 +1,53 @@
+html {
+	font-size: 15px;
+}
+
+body {
+	margin: 0;
+
+	font-family: Arial, sans-serif;
+	font-size: 1rem;
+	color: #121212;
+}
+
+*,
+*:before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* container */
+.container {
+	width: 100%;
+	max-width: 800px;
+	padding: 1rem;
+	margin: 20px auto;
+	background-color: #eee;
+}
+
+.line {
+	margin-top: 40px;
+}
+
+.news {
+	margin-top: 30px;
+}
+
+.title {
+	margin: 0 0 1rem;
+	font-size: 2rem;
+	color: #121212;
+
+}
+
+
+/* footer */
+.foot {
+	font-family: Arial, serif;
+	font-size: 1rem;
+	width: 100%;
+	max-width: 800px;
+	padding: 1rem;
+	margin: 20px auto;
+	background-color: rgb(162, 146, 181);
+}

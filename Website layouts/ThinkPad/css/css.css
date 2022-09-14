@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+.element {
+	width: 300px;
+	height: 300px;
+	margin: 20px auto;
+	background-color: #ccc;
+	border-radius: 20px;
+	padding: 40px 50px;
+	/* border-radius: 20% 20% 30% 10px / 30% 30% 40% 20px; */
+
+	box-shadow: 20px 30px 20px 15px rgb(30, 28, 28) inset, 20px 30px 20px 15px rgb(30, 28, 28);
+	opacity: 0.8;
+
+}
+
+.shadow {
+	color: rgb(20, 19, 19);
+	font-size: 23px;
+	margin: 10px;
+	text-shadow: 0 2px 2px rgb(225, 68, 68);
+	/* padding-left: 15px; */
+}

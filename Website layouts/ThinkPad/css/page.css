@@ -1,0 +1,181 @@
+body {
+	margin: 0;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	color: #292727;
+	line-height: 1.5;
+	background: url("../img/bgg.png")
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.page {
+	width: 1000px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+
+.container {
+	display: flex;
+}
+
+
+
+
+
+/* Head */
+.header {
+	padding: 20px;
+	background-color: #121212;
+}
+
+.header-title {
+	margin: 0;
+	font-size: 28px;
+	color: aliceblue;
+	text-align: center;
+}
+
+.header-subtitle {
+	margin: 0;
+	font-size: 18px;
+	color: #85bae9;
+	text-align: center;
+	font-weight: normal;
+}
+
+/* Nav */
+
+.nav {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.nav-link {
+
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #363535;
+	transition: background-color 0.20s linear ;
+}
+
+.nav-link:hover {
+
+	background-color: rgb(226, 216, 216);
+
+}
+
+/* content */
+
+.article {
+	margin-bottom: 25px;
+	border-bottom: 1px solid #363535;
+	padding-bottom: 10px;
+}
+
+.content {
+	padding: 800px;
+	padding: 0 20px;
+}
+
+.img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+
+}
+
+.intro-img {
+	border-radius: 10px;
+	box-shadow: 0px 5px 7px #292727;
+	opacity: 0.8;
+	background-color: rgb(10, 10, 10);
+	transition: opacity 0.10s linear;
+}
+
+.intro-img:hover {
+	opacity: 1;
+}
+
+
+.content-title {
+	/* margin: 0 0 15px; */
+	font-size: 18px;
+	color: #434141;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	/* padding: 11px; */
+
+}
+
+.read_more {
+	color: #3779b3;
+	text-decoration: none;
+}
+
+.content-text {
+	margin-bottom: 25px;
+	font-size: 15px;
+}
+
+.read_more:hover {
+	text-decoration: underline;
+}
+
+/* article */
+
+.article-title {
+	margin: 0 0 5px;
+	font-size: 18px;
+	color: #9b3737;
+}
+
+.article-title a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.article-title a:hover {
+	text-decoration: underline;
+}
+
+.article-date {
+	display: block;
+	font-size: 13px;
+	color: #363535;
+}
+
+
+/* sidebar */
+
+.sidebar {
+	width: 300px;
+	background-color: #eee;
+	padding: 10px;
+}
+
+/* footer */
+
+.footer {
+	padding: 20px;
+	background-color: rgb(8, 8, 8);
+	text-align: center;
+	color: #fff;
+}

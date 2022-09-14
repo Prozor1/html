@@ -1,0 +1,32 @@
+.psevdo-title {
+	margin: 0;
+	font-size: 30px;
+	text-align: center;
+}
+
+.psevdo-title::after {
+	content: "";
+	display: block;
+	margin: 5px auto;
+	width: 75px;
+	height: 3px;
+	background-color: rgb(6, 5, 5);
+}
+
+.psevdo-text{
+	font-size: 25px;
+}
+
+.psevdo-text p::first-line{
+color: rgb(6, 223, 82);
+font-size: 30px;
+}
+
+.time{
+	font-size: 20px;
+	
+}
+
+.lorem{
+	margin-bottom: 10px;
+}

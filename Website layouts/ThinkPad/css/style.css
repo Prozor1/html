@@ -1,0 +1,67 @@
+body{
+   margin: 0;
+   font-family: arial, sans-serif;
+   font-size: 15px;
+   line-height: 1.5;
+   color: 121212;
+   background-color: rgb(17, 13, 75);
+}
+
+.auth{
+   width: 500px;
+   background-color: #fff;
+   padding: 20px;
+   margin: 20px auto;
+
+}
+
+.auth-title{
+   margin: 0 0 10px;
+   font-size: 25px;
+   color: #121212;
+   text-align: center;
+}
+
+.input{
+   display: block;
+   width: 478px;
+   border: 1px solid #ccc;
+   padding: 10px;
+   font-family: inherit; 
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+
+.input:focus{
+   outline: 0;
+   border-color: #6511b9;
+}
+
+/* select */
+
+.select{
+   display: block;
+   width: 500px;
+   height: 45px;
+   border: 1px solid #ccc;
+   padding: 10px;
+   font-family: inherit; 
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+
+.select:focus{
+   
+   border-color: #110de4;
+}
+
+/* btn */
+
+.btn{
+   display: block;
+   width: 500px;
+   border: 0;
+   font-family: inherit; 
+   font-size: 18px;
+   margin-top: 15px;
+}

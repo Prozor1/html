@@ -1,0 +1,58 @@
+*::after {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 800px;
+	padding: 1rem;
+	margin: 20px auto;
+
+	background-color: #eee;
+}
+
+.title {}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-item {
+	height: 100px;
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.red {
+	background-color: #e03333;
+}
+
+.green {
+	background-color: rgb(12, 233, 63);
+}
+
+.blue {
+	background-color: #1f1faa;
+}
+
+/* media */
+
+@media (max-width: 600px) {
+
+	.flex-item {
+		flex-basis: 100%;
+	}
+
+	.red {
+		order: 1;
+	}
+
+	.green {
+		order: 2;
+	}
+
+	.blue{
+		order: 3;
+	}
+
+}
