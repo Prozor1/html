@@ -1,19 +1,65 @@
-.test {
-	text-align: center;
+$top-color: #fd12cc;
+$name: 'latto', sans-serif;
+
+$fz:70px;
+$lh:80px;
+
+.block{
+   padding: 30px;
+   font-size: $fz;
+   line-height: $lh;
+   span{
+      color: #fd12cc;
+   }
 }
 
-.menu{
-	ul{
-		padding: 0;
-		margin: 0;
-		line-height: normal;
-	}
+.link{
+   color: blue;
+   text-decoration: underline;
+   &:hover{
+      color: green;
+   }
+}
 
-	li{
-		display: block;
-	}
+.test {
+   text-align: right;
+}
 
-	a{
-		text-decoration: dashed;
-	}
+.menu {
+   ul {
+      padding: 0;
+      margin: 0;
+      line-height: normal;
+   }
+
+   li {
+      display: block;
+   }
+
+   a {
+      text-decoration: dashed;
+   }
+
+   p {
+      padding: 0;
+   }
+}
+
+.description {
+   color: $top-color;
+
+   &:hover {
+      color: aqua;
+      font-family: $name;
+   }
+}
+
+.tools {
+   &-description {
+      text-align-last: left;
+   }
+
+   &-item {
+      float: left;
+   }
 }

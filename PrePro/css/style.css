@@ -1,5 +1,22 @@
+.block {
+  padding: 30px;
+  font-size: 70px;
+  line-height: 80px;
+}
+.block span {
+  color: #fd12cc;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+.link:hover {
+  color: green;
+}
+
 .test {
-  text-align: center;
+  text-align: right;
 }
 
 .menu ul {
@@ -12,4 +29,22 @@
 }
 .menu a {
   text-decoration: dashed;
+}
+.menu p {
+  padding: 0;
+}
+
+.description {
+  color: #fd12cc;
+}
+.description:hover {
+  color: aqua;
+  font-family: "latto", sans-serif;
+}
+
+.tools-description {
+  text-align-last: left;
+}
+.tools-item {
+  float: left;
 }
