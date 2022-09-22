@@ -1,8 +1,13 @@
+@import "nullstyle.scss";
+
+
 $top-color: #fd12cc;
 $name: 'latto', sans-serif;
 
 $fz:70px;
 $lh:80px;
+$color_1:#000;
+$color_2:rgb(199, 28, 28);
 
 .block{
    padding: 30px;
@@ -14,10 +19,10 @@ $lh:80px;
 }
 
 .link{
-   color: blue;
+   color: $color_1;
    text-decoration: underline;
    &:hover{
-      color: green;
+      color: $color_2;
    }
 }
 
