@@ -153,23 +153,12 @@
 		line-height: 1.2
 
 .section-ready
-<<<<<<< HEAD
-=======
 	background-color: $light
->>>>>>> 35be2cd6db06dadd5113740d041f4ce872469ecc
 	.container
 		grid-template-columns: 1fr 1fr
 
 .ready-left
 	border-right: 1px solid #dadada
-<<<<<<< HEAD
-	padding:
-		top: 60px
-		bottom: 60px
-		right: 60px 
-
-	font-size: 18px	
-=======
 	font-size: 18px
 	padding:
 		top: 60px
@@ -183,7 +172,37 @@
 
 .formsection
 	padding: 30px 0
-	background-color: $dark	
->>>>>>> 35be2cd6db06dadd5113740d041f4ce872469ecc
+	background-color: $dark
+	input
+		background-color: lighten($dark, 6%)
+	form
+		grid-gap: $gutter
+		grid-template-columns: repeat(4, 1fr)
+	button
+		font-size: 17px
+		padding: 14.5px
+		width: 100%		
+
+input, textarea
+	border: 0
+	padding: 15px 20px
+	width: 100%	
+	font-family: Arial, sans-serif 
+	font-style: italic 
+	outline: none
+	transition: background-color .25s ease 
+	&:focus
+		background-color: $light 
+	&::placeholder
+		color: lighten($dark, 20% ) 
+
+.blog-home
+	grid-gap: $gutter
+	grid-template-columns: repeat(4, 1fr) 
+
+.blog-item
+	background-color: #f7f7f7	
+	text-decoration: none
+	grid-template-rows: 1fr 1fr			
 
 	@import "media" // Всегда в конце
