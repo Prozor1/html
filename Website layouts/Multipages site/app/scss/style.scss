@@ -5,3 +5,38 @@
 @import 'global';
 
 
+.header{
+	&_inner{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 120px;	
+	}
+		&_btn {	
+			background-color: transparent;
+			border:none;
+			padding: 0;
+			
+		}
+}
+
+
+
+
+.logo{
+	margin: 0 auto;
+}
+
+.menu{
+	
+	padding-right: 15px;
+	&_list{
+		display: flex;
+	}
+	&_list-item{
+		padding-left: 35px;
+		padding-right: 45px;
+
+	}
+}
+
