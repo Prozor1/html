@@ -5,38 +5,80 @@
 @import 'global';
 
 
-.header{
-	&_inner{
+.header {
+	&_inner {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		height: 120px;	
+		height: 120px;
 	}
-		&_btn {	
-			background-color: transparent;
-			border:none;
-			padding: 0;
-			
-		}
+
+	&_btn {
+		background-color: transparent;
+		border: none;
+		padding: 0;
+
+	}
 }
 
 
 
 
-.logo{
+.logo {
 	margin: 0 auto;
 }
 
-.menu{
-	
+.menu {
+
 	padding-right: 15px;
-	&_list{
+
+	&_list {
 		display: flex;
 	}
-	&_list-item{
+
+	&_list-item {
 		padding-left: 35px;
 		padding-right: 45px;
+	}
 
+	&_list-link {
+		@extend %title-font;
+		color: rgba(54, 56, 56, 0.9);
+		line-height: 22px;
 	}
 }
 
+.footer {
+	&_content {
+		background: #dfdfdf;
+		padding: 60px 0 80px;
+
+	}
+
+	&_info-title {
+		color: $title;
+		@extend %title-font;
+		margin-bottom: 14px;
+		line-height: 23px;
+	}
+
+	&_info-text{
+margin-bottom: 16px;
+	}
+
+	&_inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&_info{
+		width: 540px;
+	}
+
+	&_copyright {
+		background-color: $title;
+		color: #a1a1a1;
+		text-align: center;
+		padding: 42px 0 41px;
+	}
+}
