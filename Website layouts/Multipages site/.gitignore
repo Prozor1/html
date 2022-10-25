@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+node_modules
+app
+package-lock.json
+=======
 /node_modules
 /app
 <<<<<<< HEAD
@@ -5,3 +10,4 @@
 =======
 package-lock.json
 >>>>>>> 9227c7a396d1ef4a00b1068084e1f210f4825693
+>>>>>>> 72dc96a35b32ba395594e621f668ab966c2f210c
