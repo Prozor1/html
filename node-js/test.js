@@ -1,3 +1,5 @@
-const sum = 1+5;
-console.log(sum)
-console.log('Hellow Word')
+const userName = 'Sergey';
+
+const sayHI = (userName) => `Hello, my name is ${userName}`;
+
+console.log(sayHI(userName));
