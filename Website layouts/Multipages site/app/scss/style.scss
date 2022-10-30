@@ -136,11 +136,36 @@ margin-left: 100px;
 		&::before{
 			content: '';
 			position: absolute;
+			top: 3px;
 			left: 0;
 			width: 16px;
 			height: 16px;
-			
+
 		}
+	}
+
+	&_social-link--facebook::before{
+		background-image: url(../img/svg/facebook.svg);
+	}
+	&_social-link--instagram::before{
+		background-image: url(../img/svg/instagram.svg);
+		width: 14px;
+		height: 14px;
+		top: 4px;
+	}
+	&_social-link--pinterest::before{
+		background-image: url(../img/svg/pinterest.svg);
+	}
+	&_social-link--whatsapp::before{
+		background-image: url(../img/svg/whatsapp.svg);
+		width: 14px;
+		height: 14px;
+	}
+	&_social-link--youtube::before{
+		background-image: url(../img/svg/youtube.svg);
+		width: 18px;
+		height: 12px;
+		top: 4px;
 	}
 
 	&_social-item,
