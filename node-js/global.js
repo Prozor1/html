@@ -1,11 +1,6 @@
-// console.log(global);
+// setTimeout(()=>{
+// 	console.log('Hello');
 
-// setTimeout(() => {
-//    console.log('Hellow');
-// },  5000);
+// }, 2000);
 
-// console.log(__dirname);
-
-// console.log(__filename);
-
-console.log(`Hello, ${process.argv[2]}`);
+console.log(__filename);

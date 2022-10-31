@@ -79,6 +79,16 @@
 		margin-bottom: 22px;
 		padding-left: 30px;
 		display: inline-block;
+		position: relative;
+		&::before{
+			content: '';
+			background-image: url(../img/svg/envelope.svg);
+			position: absolute;
+			top: 8px;
+			left: 0;
+			width: 16px;
+			height: 12px;
+		}
 	}
 
 	&_form {
@@ -121,16 +131,59 @@ margin-left: 100px;
 	}
 
 	&_social-link{
+		padding-left: 28px;
+		position: relative;
+		&::before{
+			content: '';
+			position: absolute;
+			top: 3px;
+			left: 0;
+			width: 16px;
+			height: 16px;
 
+		}
 	}
 
+	&_social-link--facebook::before{
+		background-image: url(../img/svg/facebook.svg);
+	}
+	&_social-link--instagram::before{
+		background-image: url(../img/svg/instagram.svg);
+		width: 14px;
+		height: 14px;
+		top: 4px;
+	}
+	&_social-link--pinterest::before{
+		background-image: url(../img/svg/pinterest.svg);
+	}
+	&_social-link--whatsapp::before{
+		background-image: url(../img/svg/whatsapp.svg);
+		width: 14px;
+		height: 14px;
+	}
+	&_social-link--youtube::before{
+		background-image: url(../img/svg/youtube.svg);
+		width: 18px;
+		height: 12px;
+		top: 4px;
+	}
+
+	&_social-item,
+	&_menu-item{
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+
+		&_social-link,
+		&_menu-link{
+			color: #707070;
+		}
+		
 	&_menu{
 margin-right: 65px;
 width: 125px;
 	}
-	&_menu-link{
-		
-	}
+	
 
 
 
